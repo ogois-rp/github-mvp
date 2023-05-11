@@ -1,3 +1,2 @@
 # uphill-health
-Code exercise displaying a dashboard interacting with githubapi
-dsadas
+Code exercise displaying a dashboard interacting with github api
