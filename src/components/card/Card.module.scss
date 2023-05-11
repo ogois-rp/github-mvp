@@ -1,0 +1,88 @@
+.card {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 10px;
+	padding: 2rem;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	gap: 20px;
+
+	& img {
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+	}
+
+	& button {
+		display: none;
+	}
+
+	&:hover {
+		align-items: center;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+		& > .projectCard {
+			display: none;
+		}
+		& > .cardFollowersInfo {
+			border: none;
+			padding-bottom: 0;
+		}
+
+		& button {
+			display: inline-block;
+			padding: 16px;
+      color: #000000;
+			background-color: transparent;
+			border-radius: 20px;
+			border: 1px solid #000000;
+			cursor: pointer;
+
+      &:hover {
+        background-color: rgba(247, 249, 231, 0.408);
+      }
+		}
+
+		& img {
+			width: 75px;
+			height: 75px;
+		}
+	}
+}
+
+.cardFollowersInfo {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	border-bottom: 1px solid rgb(187, 187, 187);
+	padding-bottom: 20px;
+	width: 80%;
+}
+
+.projectCard {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid #363bd6e6;
+	border-left-width: thick;
+	border-radius: 8px;
+	padding: 1rem;
+	row-gap: 8px;
+
+	& p:first-child {
+		justify-self: flex-start;
+	}
+
+	& p:last-child {
+		grid-column: 1 / -1;
+		justify-self: flex-start;
+	}
+}
+
+.projectCardStars {
+	justify-self: flex-end;
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
