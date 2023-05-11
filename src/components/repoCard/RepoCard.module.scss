@@ -1,0 +1,33 @@
+.repoCard {
+  display: grid;
+  background-color: #ffffff;
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  border-left-width: thick;
+  row-gap: 20px;
+
+  &:first-child {
+    border-top: 8px solid #363bd6e6;
+  }
+
+  &:nth-child(2) {
+    border-top: 8px solid #05157f9a;
+  }
+
+  &:nth-child(3) {
+    border-top: 8px solid #05507fae;
+  }
+
+  &:last-child {
+    border-top: 8px solid #07dbebe6;
+  }
+}
+
+.repoCardFollowersInfo {
+  justify-self: center;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  gap: 2px;
+}
