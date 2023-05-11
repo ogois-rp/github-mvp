@@ -1,0 +1,35 @@
+.backGroundHeader {
+	background-color: #00113bc7;
+}
+
+.headerContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 0rem;
+  padding-right: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.mainContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.cardHolder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 350px)); 
+  gap: 30px; 
+  margin: 2rem 0rem; 
+}
+
+.cardRepoHolder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px)); 
+  gap: 40px; 
+  margin: 2rem 0rem; 
+}
+
