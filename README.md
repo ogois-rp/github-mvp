@@ -6,3 +6,5 @@ Code exercise displaying a dashboard interacting with github api
 - access the uphill-health folder and exec <code>.code</code> on terminal 
 - in vscode you'll need to run <code>npm run dev</code>
 - access local link
+
+Test commit
